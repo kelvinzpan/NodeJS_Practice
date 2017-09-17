@@ -2,9 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Profile</title>
+    <title>Node.js Practice</title>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
+  	<% include partials/nav.ejs %>
   	<p>Looking at the profile of <%= person %>.</p>
   	<p><strong>Age: </strong><%= data.age %></p>
   	<p><strong>Job: </strong><%= data.job %></p>

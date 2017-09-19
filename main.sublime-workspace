@@ -83,22 +83,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 519,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "readme.txt",
-			"settings":
-			{
-				"buffer_size": 127866,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -108,16 +92,36 @@
 	"command_palette":
 	{
 		"height": 443.0,
-		"last_filter": "html",
+		"last_filter": "instal",
 		"selected_items":
 		[
 			[
-				"html",
-				"HTMLPrettify"
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"preferences",
+				"Preferences: Settings"
 			],
 			[
 				"packa",
-				"Package Control: List Packages"
+				"Preferences: Browse Packages"
+			],
+			[
+				"html",
+				"HTMLPrettify"
 			],
 			[
 				"term",
@@ -144,20 +148,12 @@
 				"Terminal: Open"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"pack",
 				"Package Control: List Packages"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"insta",
@@ -182,10 +178,6 @@
 			[
 				"them",
 				"Themr: List themes"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"remove ",
@@ -220,7 +212,7 @@
 				"Indentation: Convert to Spaces"
 			]
 		],
-		"width": 703.0
+		"width": 555.0
 	},
 	"console":
 	{
@@ -238,12 +230,25 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice"
-	],
 	"file_history":
 	[
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/app_todo/controllers/todoController.js",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/app_todo/app.js",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/public/assets/styles.css",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/public/assets/todo-list.js",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/views/todo.ejs",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/views/index.ejs",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/views/contact-success.ejs",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/views/contact.ejs",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/views/profile.ejs",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/app.js",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/views/contact-success",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/contact.html",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/index.html",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/views/partials/nav.ejs",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/assets/styles.css",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/readme.txt",
+		"/C/Users/Kelvin/Documents/GitHub/NodeJS_Practice/package.json",
 		"/C/Users/Kelvin/Documents/GitHub/kelvinzpan.github.io/css/main.css",
 		"/C/Users/Kelvin/Documents/GitHub/kelvinzpan.github.io/css/main.scss",
 		"/C/Users/Kelvin/Documents/GitHub/kelvinzpan.github.io/js/main.js",
@@ -297,65 +302,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 519,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "readme.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 127866,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -365,7 +313,7 @@
 	},
 	"input":
 	{
-		"height": 75.0
+		"height": 77.0
 	},
 	"layout":
 	{
@@ -393,6 +341,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 140.0
 	},
 	"pinned_build_system": "",
 	"project": "main.sublime-project",
